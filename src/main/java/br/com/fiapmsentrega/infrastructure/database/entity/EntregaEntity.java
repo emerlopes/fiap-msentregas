@@ -24,7 +24,7 @@ public class EntregaEntity {
     private Long idEntrega;
 
     private UUID idCliete;
-    private UUID idPedido;
+    private Long idPedido;
     private LocalDate dataEntrega;
     private String enderecoEntrega;
 }

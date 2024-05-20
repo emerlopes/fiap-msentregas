@@ -15,7 +15,7 @@ public class EntregaDomainEntity {
 
     private Long idEntrega;
     private UUID idCliete;
-    private UUID idPedido;
+    private Long idPedido;
 
     @Setter
     private LocalDate dataEntrega;

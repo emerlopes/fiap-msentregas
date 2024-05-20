@@ -23,7 +23,7 @@ public class EntregaResponseDTO {
     private UUID idCliete;
 
     @JsonProperty("id_pedido")
-    private UUID idPedido;
+    private Long idPedido;
 
     @JsonProperty("data_entrega")
     private LocalDate dataEntrega;

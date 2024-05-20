@@ -18,7 +18,7 @@ public class EntregaRequestDTO {
     private UUID idCliente;
 
     @JsonProperty("id_pedido")
-    private UUID idPedido;
+    private Long idPedido;
 
     @JsonProperty("endereco_entrega")
     private String enderecoEntrega;
